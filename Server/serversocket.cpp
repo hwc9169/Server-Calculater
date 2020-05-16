@@ -8,7 +8,7 @@
 #define BUF_SIZE 1024
 #define INT 4
 void error() {
-	printf("ERROR!!");
+	printf("ERROR!!"); //¿¡·¯  
 	exit(1);
 }
 
