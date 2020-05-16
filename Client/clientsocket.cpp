@@ -12,10 +12,11 @@ void error() {
 }
 
 int main(int argc, char* argv[]) {
+
 	SOCKET sock;
 	SOCKADDR_IN sock_addr;
 	WSADATA wsadata;
-
+	
 	memset(&sock_addr,0,sizeof(sock_addr));
 	sock_addr.sin_family = AF_INET;
 	sock_addr.sin_port = htons(atoi(argv[1]));
